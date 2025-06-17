@@ -4,9 +4,7 @@ import Link from 'next/link'
 import { useState } from 'react'
 import {ShoppingCartIcon,Bars3Icon,XMarkIcon  } from "@heroicons/react/24/outline"
 import { useCartStore } from '@/store/cart-store'
-import { access } from 'fs'
 import { Button } from './ui/button'
-import { Ghost } from 'lucide-react'
 export const Navbar = () => {
   const [mobileOpen , setMobileOpen] = useState<boolean>(false);
   const {items} = useCartStore()

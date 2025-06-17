@@ -1,7 +1,7 @@
 "use client"
 import Link from "next/link";
 import Stripe from "stripe"
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "./ui/card";
+import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
 import Image from "next/image";
 import { Button } from "./ui/button";
 interface Props {
